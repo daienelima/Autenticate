@@ -1,0 +1,22 @@
+### Bad credentials
+POST http://localhost:8080/auth
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "admin1"
+}
+
+###
+
+### Succces
+POST http://localhost:8080/auth
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "admin"
+}
+
+###
+
